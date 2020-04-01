@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         run("https://api.github.com/repos/[owner]/[repo]/contributors")
 
-        
+
 
     }
 
@@ -69,6 +69,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d(TAG, "id : "+data.id)
                 Log.d(TAG, "id : "+data.message)
                 Log.d(TAG, "id : "+data.documentation_url)
+                Log.d(TAG, "id : "+data.toString())
                 Log.d(TAG, "id : "+data.toString())
 //                parse(data)
             }
